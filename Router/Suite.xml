@@ -1,0 +1,20 @@
+<suite name="router.xiaoq.com.WebDriver">
+	<test name="test_LanNetwork">
+		<classes>
+			<class name="com.xiaoq.router.LAN.LanNetwork" />
+			<class name="com.xiaoq.router.LAN.ExLanNetwork" />
+			<class name="com.xiaoq.router.LAN.MaxLanNumber" />
+			<class name="com.xiaoq.router.LAN.LanManger" />
+		</classes>
+	</test>
+	
+	<test name="test_WanNetwork">
+		<classes>
+			<class name="com.xiaoq.router.WAN.StaticWan" />
+			<class name="com.xiaoq.router.WAN.PPPoEWan" />
+			<class name="com.xiaoq.router.WAN.DHCPWan" />
+			<class name="com.xiaoq.router.WAN.MaxWanNumber" />
+			<class name="com.xiaoq.router.WAN.WanManger" />
+		</classes>
+	</test>
+</suite>
